@@ -8,12 +8,25 @@ Run `yarn install` to install project
 
 ## Run
  
-Run `yarn start --path [path-to-built-project-directory]`
+Run : 
+
+```
+yarn start --path <path-to-built-project-directory> [options]
+
+Required:
+
+--path <path> : specify the path to built directory
+
+Options:
+
+--ssl [bool] : boolean to know if the server is on http or https (default: false)
+
+```
 
 ## Exceptions that can be thrown
 
 
-### Path argument not found
+#### Path argument not found
 
  ```
  'path' argument is expected !
@@ -25,7 +38,7 @@ Run `yarn start --path [path-to-built-project-directory]`
 
  ---
 
-### Built directory doesn't exist
+#### Built directory doesn't exist
 
 ```
 [path-to-built-project-directory] doesn't exist ! Please give a valid path !
