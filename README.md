@@ -7,8 +7,6 @@ This project is used to run built projects
 Run `yarn install` to install project
 
 ## Run
- 
-Run : 
 
 ```
 yarn start --path <path-to-built-project-directory> [options]
